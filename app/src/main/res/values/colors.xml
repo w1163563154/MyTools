@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="zicolor">#272727</color>
+    <color name="TextColorBlue">#157efb</color>
+    <color name="red_main">#018ee8</color>
+    <color name="div_gray">#ccc</color>
+    <color name="darkgray">#ff676d72</color>
+    <color name="background_photo">#eeeeee</color>
+    <color name="button_skybule">#66B3FF</color>
+    <color name="lightgray">#ffd1d6da</color>
+    <color name="black1">#696566</color>
+    <color name="background_color">#F0F0F0</color>
+    <color name="gray_color">#F5F5F5</color>
+    <color name="line_color">#ededed</color>
+    <color name="textblack">#ff3f4245</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="zi_gray">#757575</color>
+    <color name="zi_gray2">#A9A9A9</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808a87</color>
+    <color name="grad">#f8f8f8</color>
+    <color name="tv_money_red">#ff4430</color>
+    <!-- ======================夺宝 部分 ===============-->
+    <color name="gray_deep">#5c5c5c</color>
+    <color name="money_red">#e46161</color>
+    <!--============= 信用卡代还 部分 =====================-->
+
+    <color name="bank_card_color_blue_light">#5BA0D7</color>
+    <color name="bank_card_color_blue_light_center">#41669E</color>
+    <color name="bank_card_color_blue">#1865FF</color>
+
+    <color name="bank_card_color_red_light">#FF8870</color>
+    <color name="bank_card_color_red_light_center">#C83F4F</color>
+    <color name="bank_card_color_red">#FF4088</color>
+
+    <color name="bank_card_color_yellow_light">#F2B643</color>
+    <color name="bank_card_color_yellow_light_center">#E8A62F</color>
+    <color name="bank_card_color_yellow">#E68803</color>
+    <color name="tab_color_yellow">#FF7800</color>
+    <color name="bank_card_color_green_light">#01B6A5</color>
+    <color name="bank_card_color_green_light_center">#2E7470</color>
+    <color name="bank_card_color_green">#02BBE9</color>
+    <color name="bg_gray_tv">#D8D8D8</color>
+
+    <color name="color_f0f0f0">#f0f0f0</color>
+    <color name="c_F5C3C8">#F5C3C8</color>
+    <color name="translucent">#66000000</color>
+    <color name="bg_color_dark">#667ab33e</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gesture_lock_unselected">#bdbdbd</color>
+    <color name="gesture_lock_selected">#3DC0BC</color>
+    <color name="gesture_lock_selected_dark">#3A9E81</color>
+    <color name="color_424242">#424242</color>
+    <color name="color_00c6ff">#00c6ff</color>
+    <color name="transparent">#00000000</color>
+    <color name="banklist_color_bg">#425c84</color>
+
+    <color name="transparentBlank_5">#55000000</color><!-- 半透明 -->
+
+
+    <color name="BD">#BDBDBD</color>
+
+
+    <color name="whiteTrans66">#66FFFFFF</color>
+
+    <color name="orange">#f8b62d</color>
+    <color name="yellow">#e6ff00</color>
+    <color name="red">#ff0006</color>
+    <color name="hot_pink">#FD4C5B</color><!-- Acfun主题色 -->
+    <color name="baby_blue">#89CFF0</color>
+    <color name="blue">#3F51B5</color>
+    <color name="dark_blue_03">#000333</color>
+</resources>

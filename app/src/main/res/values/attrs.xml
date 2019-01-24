@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTextView">
+        <attr name="header" format="reference" />
+        <attr name="headerHeight" format="dimension" />
+        <attr name="headerVisibleHeight" format="dimension" />
+        <attr name="age">
+            <flag name="child" value="10"/>
+            <flag name="young" value="18"/>
+            <flag name="old" value="60"/>
+        </attr>
+    </declare-styleable>
+
+        <!--<declare-styleable name="ZView">
+            <attr name="src" format="reference" />
+            <attr name="shadowDx" format="integer" />
+            <attr name="shadowDy" format="integer" />
+            <attr name="shadowColor" format="color"/>
+            <attr name="shadowRadius" format="float"/>
+        </declare-styleable>-->
+
+
+    <declare-styleable name="RxTitle">
+        <attr name="title" format="string"/>
+        <attr name="titleColor" format="color"/>
+        <attr name="titleSize" format="dimension"/>
+        <attr name="titleVisibility" format="boolean"/>
+
+        <attr name="leftText" format="string"/>
+        <attr name="leftTextColor" format="color"/>
+        <attr name="leftTextSize" format="dimension"/>
+        <attr name="leftTextVisibility" format="boolean"/>
+
+        <attr name="rightText" format="string"/>
+        <attr name="rightTextColor" format="color"/>
+        <attr name="rightTextSize" format="dimension"/>
+        <attr name="rightTextVisibility" format="boolean"/>
+
+        <attr name="leftIcon" format="reference"/>
+        <attr name="leftIconVisibility" format="boolean"/>
+
+        <attr name="rightIcon" format="reference"/>
+        <attr name="rightIconVisibility" format="boolean"/>
+    </declare-styleable>
+
+    <!--Rxanima-->
+    <declare-styleable name="RxHeartLayout">
+        <attr name="initX" format="dimension"/>
+        <attr name="initY" format="dimension"/>
+        <attr name="xRand" format="dimension"/>
+        <attr name="animLengthRand" format="dimension"/>
+        <attr name="xPointFactor" format="dimension"/>
+        <attr name="animLength" format="dimension"/>
+        <attr name="heart_width" format="dimension"/>
+        <attr name="heart_height" format="dimension"/>
+        <attr name="bezierFactor" format="integer"/>
+        <attr name="anim_duration" format="integer"/>
+    </declare-styleable>
+    <!--RxImageView-->
+    <declare-styleable name="RxPorterImageView">
+        <attr name="siShape" format="integer|reference"/>
+    </declare-styleable>
+
+    <!--Rxbutton-->
+    <declare-styleable name="RxShineButton">
+        <attr name="btn_color" format="color"/>
+        <attr name="btn_fill_color" format="color"/>
+        <attr name="shine_count" format="integer"/>
+        <attr name="shine_turn_angle" format="float"/>
+        <attr name="small_shine_offset_angle" format="float"/>
+        <attr name="enable_flashing" format="boolean"/>
+        <attr name="allow_random_color" format="boolean"/>
+        <attr name="small_shine_color" format="color"/>
+        <attr name="big_shine_color" format="color"/>
+        <attr name="shine_animation_duration" format="integer"/>
+        <attr name="click_animation_duration" format="integer"/>
+        <attr name="shine_distance_multiple" format="float"/>
+        <attr name="shine_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="HeadView">
+        <attr name="src" format="reference" />
+        <attr name="format" format="enum">
+            <enum name="circle" value="0"/>
+            <enum name="rectTangle" value="1"/>
+        </attr>
+        <attr name="radius" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="LinearGradientView">
+        <attr name="startcolor" format="color" />
+        <attr name="endcolor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="VerticalRollingTextView">
+        <!--文字颜色-->
+        <attr name="android:textColor" />
+        <!--文字大小-->
+        <attr name="android:textSize" format="dimension"/>
+        <!--每个条目显示的最大的行数-->
+        <attr name="android:maxLines"/>
+        <!--文字过长处理-->
+        <attr name="android:ellipsize"/>
+        <!--滚动动画时长-->
+        <attr name="android:duration"/>
+        <!--两次动画之间的间隔-->
+        <attr name="animInterval" format="integer"/>
+        <!--展示条目的个数-->
+        <attr name="itemCount" format="integer"/>
+        <!--多行显示时自适应文字的最大文字大小-->
+        <attr name="maxTextSize" format="dimension"/>
+        <!--多行显示时自适应文字的最小文字大小-->
+        <attr name="minTextSize" format="dimension"/>
+    </declare-styleable>
+
+
+</resources>
