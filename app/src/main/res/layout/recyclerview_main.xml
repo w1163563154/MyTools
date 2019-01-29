@@ -18,10 +18,10 @@
         android:textColor="@color/colorAccent"
         />
 
-    <View
-        android:layout_width="2dp"
-        android:background="@color/yellow"
-        android:layout_height="match_parent"/>
+    <!--<View-->
+        <!--android:layout_width="2dp"-->
+        <!--android:background="@color/yellow"-->
+        <!--android:layout_height="match_parent"/>-->
 
 
 </LinearLayout>
