@@ -36,6 +36,7 @@
         <activity android:name=".Ui.Activity.BiZhiActivity"/>
         <activity android:name=".Ui.Activity.BiaoGeActivity" />
         <activity android:name=".Ui.Activity.PullZoomActivity.PullScrollViewActivity" />
+        <activity android:name=".Ui.Activity.ShiJianActivity" />
     </application>
 
 

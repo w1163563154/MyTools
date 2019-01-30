@@ -50,7 +50,7 @@ public class MainActivity extends MyActivity {
         mNameList = new ArrayList<MainInfo>();
         mNameList.add(new MainInfo("点赞",new DianZhanActivity()));
         mNameList.add(new MainInfo("更换壁纸与表格控件",new BiZhiActivity()));
-        mNameList.add(new MainInfo("表格控件",new BiZhiActivity()));
+        mNameList.add(new MainInfo("时间选择器",new ShiJianActivity()));
         mNameList.add(new MainInfo("放大",new PullScrollViewActivity()));
         mNameList.add(new MainInfo("平滑",new DianZhanActivity()));
         mMainAdapter.refresh(mNameList);
