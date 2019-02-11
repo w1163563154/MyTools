@@ -14,6 +14,7 @@
     <uses-permission android:name="android.permission.SET_WALLPAPER"/>
 
     <application
+        android:name=".Globlo.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -34,9 +35,10 @@
 
         <activity android:name=".Ui.Activity.DianZhanActivity.DianZhanActivity"/>
         <activity android:name=".Ui.Activity.BiZhiActivity"/>
-        <activity android:name=".Ui.Activity.BiaoGeActivity" />
+        <activity android:name=".Ui.Activity.WenZhiGunDongActivity" />
         <activity android:name=".Ui.Activity.PullZoomActivity.PullScrollViewActivity" />
         <activity android:name=".Ui.Activity.ShiJianActivity" />
+
     </application>
 
 
