@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xiaoyu.mytools.Ui.Activity.RecyclerBannerActivity.RecyclerBannerActivity">
+
+    <com.xiaoyu.mytools.Ui.Activity.RecyclerBannerActivity.BannerLayout
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:autoPlaying="true"
+        app:centerScale="1.5"
+        app:itemSpace="20"
+        app:moveSpeed="1"/>
+
+    <com.xiaoyu.mytools.Ui.Activity.RecyclerBannerActivity.BannerLayout
+        android:id="@+id/recycler_ver"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        app:orientation="1"
+        app:showIndicator="false"/>
+
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/recycler_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+
+    <SeekBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="700"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="滑动设置图片间距"/>
+
+</LinearLayout>

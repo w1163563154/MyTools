@@ -38,6 +38,9 @@
         <activity android:name=".Ui.Activity.WenZhiGunDongActivity" />
         <activity android:name=".Ui.Activity.PullZoomActivity.PullScrollViewActivity" />
         <activity android:name=".Ui.Activity.ShiJianActivity" />
+        <activity android:name=".Ui.Activity.RecyclerBannerActivity.RecyclerBannerActivity"
+            android:screenOrientation="portrait"
+            />
 
     </application>
 

@@ -15,6 +15,7 @@ import com.xiaoyu.mytools.R;
 import com.xiaoyu.mytools.Ui.Activity.Adapter.MainAdapter;
 import com.xiaoyu.mytools.Ui.Activity.DianZhanActivity.DianZhanActivity;
 import com.xiaoyu.mytools.Ui.Activity.PullZoomActivity.PullScrollViewActivity;
+import com.xiaoyu.mytools.Ui.Activity.RecyclerBannerActivity.RecyclerBannerActivity;
 
 import java.util.ArrayList;
 
@@ -53,6 +54,7 @@ public class MainActivity extends MyActivity {
         mNameList.add(new MainInfo("时间选择器",new ShiJianActivity()));
         mNameList.add(new MainInfo("下拉放大",new PullScrollViewActivity()));
         mNameList.add(new MainInfo("文字滚动",new WenZhiGunDongActivity()));
+        mNameList.add(new MainInfo("RecyclerBanner",new RecyclerBannerActivity()));
         mMainAdapter.refresh(mNameList);
 
     }
