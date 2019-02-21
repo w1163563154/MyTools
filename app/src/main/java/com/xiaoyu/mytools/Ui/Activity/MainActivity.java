@@ -17,6 +17,7 @@ import com.xiaoyu.mytools.Ui.Activity.Adapter.MainAdapter;
 import com.xiaoyu.mytools.Ui.Activity.DialogActivity.DialogActivity;
 import com.xiaoyu.mytools.Ui.Activity.DianZhanActivity.DianZhanActivity;
 
+import com.xiaoyu.mytools.Ui.Activity.DongGuangActivity.DongGuangActivity;
 import com.xiaoyu.mytools.Ui.Activity.PullZoomActivity.PullScrollViewActivity;
 import com.xiaoyu.mytools.Ui.Activity.RecyclerBannerActivity.RecyclerBannerActivity;
 
@@ -59,6 +60,7 @@ public class MainActivity extends MyActivity {
         mNameList.add(new MainInfo("文字滚动",new WenZhiGunDongActivity()));
         mNameList.add(new MainInfo("RecyclerBanner",new RecyclerBannerActivity()));
         mNameList.add(new MainInfo("Dialog",new DialogActivity()));
+        mNameList.add(new MainInfo("震动闪光",new DongGuangActivity()));
         mNameList.add(new MainInfo("Text",new TextActivity()));
         mMainAdapter.refresh(mNameList);
 

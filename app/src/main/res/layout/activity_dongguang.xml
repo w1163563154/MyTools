@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+
+    <Button
+        android:id="@+id/light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="闪关灯"
+        />
+
+    <Button
+        android:id="@+id/top_openpicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开相册"
+        />
+
+    <Button
+        android:id="@+id/btn_vibrate_once"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单次震动"
+        />
+
+    <Button
+        android:id="@+id/btn_vibrate_Complicated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="复杂震动"
+        />
+
+    <Button
+        android:id="@+id/btn_vibrate_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停止震动"
+        />
+
+
+    <SurfaceView
+        android:id="@+id/capture_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="true"
+        android:fitsSystemWindows="true"/>
+
+
+</LinearLayout>
