@@ -19,6 +19,7 @@ import com.xiaoyu.mytools.R;
 import com.xiaoyu.mytools.Utils.T;
 
 import java.util.ArrayList;
+import java.util.Observer;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -90,6 +91,7 @@ public class WenZhiGunDongActivity extends MyActivity {
         });
         mHandler.sendEmptyMessage(NEWS_MESSAGE_TEXTVIEW);
     }
+
 
 
 }

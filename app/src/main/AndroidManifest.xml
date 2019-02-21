@@ -25,6 +25,7 @@
 
         <activity
             android:name=".Ui.Activity.MainActivity"
+            android:screenOrientation="portrait"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,6 +40,13 @@
         <activity android:name=".Ui.Activity.PullZoomActivity.PullScrollViewActivity" />
         <activity android:name=".Ui.Activity.ShiJianActivity" />
         <activity android:name=".Ui.Activity.RecyclerBannerActivity.RecyclerBannerActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Ui.Activity.TextActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".Ui.Activity.DialogActivity.DialogActivity"
             android:screenOrientation="portrait"
             />
 

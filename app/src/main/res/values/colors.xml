@@ -76,4 +76,7 @@
     <color name="baby_blue">#89CFF0</color>
     <color name="blue">#3F51B5</color>
     <color name="dark_blue_03">#000333</color>
+
+    <color name="z_transparent">#00000000</color>
+    <color name="z_dialog_bg_color">#FFFFFF</color>
 </resources>
