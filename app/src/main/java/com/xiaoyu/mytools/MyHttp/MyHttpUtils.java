@@ -1,7 +1,5 @@
 package com.xiaoyu.mytools.MyHttp;
 
-import android.support.v7.util.SortedList;
-
 import java.util.Map;
 
 import okhttp3.OkHttpClient;

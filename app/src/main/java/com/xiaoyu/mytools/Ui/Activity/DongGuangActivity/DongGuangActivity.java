@@ -1,14 +1,9 @@
 package com.xiaoyu.mytools.Ui.Activity.DongGuangActivity;
 
 
-import android.app.Activity;
-import android.content.ContentResolver;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.graphics.Point;
-import android.net.Uri;
 import android.os.Handler;
-import android.provider.MediaStore;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -31,8 +26,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-
-import static com.xiaoyu.mytools.Globlo.MyApplication.mContext;
 
 /**
  * Created by yfb on 2019/2/21.

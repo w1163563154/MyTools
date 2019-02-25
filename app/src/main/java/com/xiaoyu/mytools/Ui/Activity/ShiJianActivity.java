@@ -4,7 +4,6 @@ import android.graphics.Color;
 import android.icu.text.SimpleDateFormat;
 
 import android.os.Build;
-import android.os.Bundle;
 import android.support.annotation.RequiresApi;
 import android.util.Log;
 import android.view.View;

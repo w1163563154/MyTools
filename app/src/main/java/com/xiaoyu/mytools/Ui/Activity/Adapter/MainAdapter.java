@@ -9,11 +9,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.xiaoyu.mytools.Base.MyRecyclerViewAdapter;
-import com.xiaoyu.mytools.Globlo.MyApplication;
 import com.xiaoyu.mytools.Info.MainInfo;
 import com.xiaoyu.mytools.OnClickUtils.MyOnClickLisenter;
 import com.xiaoyu.mytools.R;
-import com.xiaoyu.mytools.Ui.Activity.DianZhanActivity.DianZhanActivity;
 
 import java.util.List;
 

@@ -1,17 +1,12 @@
 package com.xiaoyu.mytools.Ui.Activity;
 
-import android.app.Activity;
-import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
-import android.view.View;
 
 import com.xiaoyu.mytools.Base.MyActivity;
 import com.xiaoyu.mytools.Info.MainInfo;
-import com.xiaoyu.mytools.OnClickUtils.MyOnClickLisenter;
 import com.xiaoyu.mytools.R;
 import com.xiaoyu.mytools.Ui.Activity.Adapter.MainAdapter;
 import com.xiaoyu.mytools.Ui.Activity.DialogActivity.DialogActivity;

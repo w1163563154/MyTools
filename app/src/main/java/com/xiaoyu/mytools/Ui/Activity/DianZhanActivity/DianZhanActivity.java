@@ -1,7 +1,6 @@
 package com.xiaoyu.mytools.Ui.Activity.DianZhanActivity;
 
 import android.annotation.SuppressLint;
-import android.app.WallpaperManager;
 import android.graphics.Color;
 import android.view.View;
 import android.widget.ImageView;
@@ -12,7 +11,6 @@ import android.widget.TextView;
 import com.xiaoyu.mytools.Base.MyActivity;
 import com.xiaoyu.mytools.R;
 
-import java.io.IOException;
 import java.util.Random;
 
 import butterknife.BindView;

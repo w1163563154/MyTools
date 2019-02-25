@@ -1,7 +1,6 @@
 package com.xiaoyu.mytools.Ui.Activity;
 
 import android.graphics.Color;
-import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.text.TextUtils;
@@ -14,12 +13,10 @@ import android.widget.TextView;
 import android.widget.ViewSwitcher;
 
 import com.xiaoyu.mytools.Base.MyActivity;
-import com.xiaoyu.mytools.Globlo.MyApplication;
 import com.xiaoyu.mytools.R;
 import com.xiaoyu.mytools.Utils.T;
 
 import java.util.ArrayList;
-import java.util.Observer;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
