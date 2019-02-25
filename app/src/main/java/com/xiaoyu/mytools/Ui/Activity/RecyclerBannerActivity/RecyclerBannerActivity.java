@@ -1,6 +1,6 @@
 package com.xiaoyu.mytools.Ui.Activity.RecyclerBannerActivity;
 
-import android.os.Bundle;
+
 import android.os.Handler;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -9,13 +9,11 @@ import android.widget.Toast;
 
 import com.xiaoyu.mytools.Base.MyActivity;
 import com.xiaoyu.mytools.R;
-import com.xiaoyu.mytools.Ui.Activity.MainActivity;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
+
 
 /**
  * Created by yfb on 2019/2/12.

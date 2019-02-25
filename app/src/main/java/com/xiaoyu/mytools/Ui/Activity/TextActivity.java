@@ -2,6 +2,9 @@ package com.xiaoyu.mytools.Ui.Activity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.view.ViewStub;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.xiaoyu.mytools.Base.MyActivity;
@@ -23,7 +26,12 @@ import io.reactivex.disposables.Disposable;
 public class TextActivity extends MyActivity {
     @BindView(R.id.text)
     TextView mText;
+    @BindView(R.id.button)
+    Button button;
+    @BindView(R.id.stu)
+    ViewStub stu;
 
+    private boolean isstu=false;
     @Override
     public int setLayout() {
         return R.layout.activity_text;
@@ -73,4 +81,21 @@ public class TextActivity extends MyActivity {
 
 
 
+    @OnClick({R.id.button, R.id.text})
+    public void onViewClicked(View view) {
+        switch (view.getId()) {
+            case R.id.button:
+                isstu=!isstu;
+                if(isstu){
+                    stu.inflate();
+                }else{
+
+                stu.setVisibility(View.GONE);
+            }
+
+                break;
+            case R.id.text:
+                break;
+        }
+    }
 }

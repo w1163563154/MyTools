@@ -2,7 +2,7 @@ package com.xiaoyu.mytools.Ui.Activity;
 
 import android.annotation.SuppressLint;
 import android.app.WallpaperManager;
-import android.os.Bundle;
+
 import android.view.View;
 
 import com.bin.david.form.core.SmartTable;

@@ -55,6 +55,9 @@
         <activity android:name=".Ui.Activity.DongGuangActivity.DongGuangActivity"
             android:screenOrientation="portrait"
             />
+        <activity android:name=".Ui.Activity.ErWeiActivity.ErWeiActivity"
+
+            />
 
     </application>
 
